@@ -15,6 +15,7 @@ yarn-error.log
 /setup
 config.yaml
 Vagrantfile
+ubuntu*
 
 .DS*
 ._DS*
