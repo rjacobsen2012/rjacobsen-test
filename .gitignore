@@ -18,3 +18,4 @@ Vagrantfile
 
 .DS*
 ._DS*
+/.idea
