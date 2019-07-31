@@ -20,3 +20,14 @@ ubuntu*
 .DS*
 ._DS*
 /.idea
+_ide_helper.php
+/public/css/all.*
+/public/css/app.*
+/public/js/all.*
+/public/js/app.*
+/resources/assets/css/*
+/resources/assets/js/*
+!/resources/assets/js/components
+!/resources/assets/js/app.js
+/public/mix-manifest.json
+package-lock.json

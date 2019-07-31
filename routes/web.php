@@ -12,5 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('recipes.index');
+});
+
+Auth::routes();
+
+Route::resource('recipes', 'RecipesController');
+Route::resource('categories', 'CategoriesController');
+
+
+Route::group(['namespace' => 'Api', 'prefix' => 'api/v1', 'as' => 'api.v1.'], function () {
+
+    Route::resource('recipes', 'RecipeController');
+    Route::get('categories/{term?}', 'CategoryController@index')->name('categories.index');
+
 });

@@ -13,7 +13,7 @@
         "axios": "^0.19",
         "bootstrap": "^4.1.0",
         "cross-env": "^5.1",
-        "jquery": "^3.2",
+        "jquery": "^3.4.1",
         "laravel-mix": "^4.0.7",
         "lodash": "^4.17.13",
         "popper.js": "^1.12",
@@ -22,5 +22,19 @@
         "sass-loader": "^7.1.0",
         "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "bootbox": "^5.2.0",
+        "bootstrap-sass": "^3.4.1",
+        "bootstrap-switch": "^3.4.0",
+        "datatables.net": "^1.10.19",
+        "datatables.net-bs": "^1.10.19",
+        "jquery.cookie": "^1.4.1",
+        "jqueryui": "^1.11.1",
+        "moment": "^2.24.0",
+        "moment-timezone": "^0.5.26",
+        "npm": "^6.10.2",
+        "tether": "^1.4.7",
+        "typeahead.js": "^0.11.1"
     }
 }
