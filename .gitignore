@@ -31,3 +31,5 @@ _ide_helper.php
 !/resources/assets/js/app.js
 /public/mix-manifest.json
 package-lock.json
+composer.lock
+yarn.lock
